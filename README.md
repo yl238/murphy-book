@@ -9,9 +9,10 @@ and other resources when Murphy's book is less than explicit.
 To keep myself up-to-date I have included some notes I made on the 'more' recent papers on 
 stochastic variational inference. 
 
-I've implemented some of the algorithms, including the Expectation-Maximisation algorithm
-for Gaussian Mixture Models.
+I've implemented some of the algorithms and you can find them in the corresponding directories: 
+- Expectation-Maximisation algorithm for Gaussian Mixture Models (`mixture-models-and-em`) 
 
-FInally, some probabilistic programming libraries:
+
+Finally, some probabilistic programming libraries:
 - The `Pyro` directory contains examples using the Python library Pyro for inference.
 - The `TFP` directory contains examples using the Tensorflow Probability library. 
