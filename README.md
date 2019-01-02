@@ -1,7 +1,7 @@
 # Machine Learning - A Probabilistic Perspective
 
 This repository contains jupyter notebooks and scripts written to better understand
-probabilistic, in particular Bayesian modelling. Many of the notes were from Murphy's 
+probabilistic modelling. Many of the notes were from Murphy's 
 'Machine Learning - a probabilistic perspective', but some are also from Bishop (2006) 
 and other resources when Murphy's book is less than explicit.
 
