@@ -40,6 +40,10 @@ if use_tf_eager:
     except:
         pass
 
+import tensorflow_probability as tfp
+tfd = tfp.distributions
+tfb = tfp.bijectors
+
 def evaluate(tensors):
     """Evaluates Tensor or EagerTensor to Numpy `ndarray`s.
     Args:
