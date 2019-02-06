@@ -88,4 +88,12 @@ def get_mnist():
     y_test = y_test.astype(np.int32)
     X_valid, X_train = X_train[:5000], X_train[5000:]
     y_valid, y_train = y_train[:5000], y_train[5000:]
-    return X_train, X_valid, y_train, y_valid
+    return X_train, X_valid, X_test, y_train, y_valid, y_test
+
+def plot_image(image):
+    plt.imshow(image, cmap="gray", interpolation="nearest")
+    plt.axis("off")
+
+def plot_color_image(image):
+    plt.imshow(image.astype(np.uint8),interpolation="nearest")
+    plt.axis("off")
